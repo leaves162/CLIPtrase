@@ -6,7 +6,7 @@
 > CLIP, as a vision-language model, has significantly advanced Open-Vocabulary Semantic Segmentation (OVSS) with its zero-shot capabilities. Despite its success, its application to OVSS faces challenges due to its initial image-level alignment training, which affects its performance in tasks requiring detailed local context. Our study delves into the impact of CLIP's [CLS] token on patch feature correlations, revealing a dominance of "global" patches that hinders local feature discrimination. To overcome this, we propose CLIPtrase, a novel training-free semantic segmentation strategy that enhances local feature awareness through recalibrated self-correlation among patches. This approach demonstrates notable improvements in segmentation accuracy and the ability to maintain semantic coherence across objects.
 Experiments show that we are 22.3\% ahead of CLIP on average on 9 segmentation benchmarks, outperforming existing state-of-the-art training-free methods.
 
-Full paper and supplementary materials: arxiv
+Full paper and supplementary materials: [arxiv](https://arxiv.org/abs/2407.08268)
 
 ### 1.1. Global Patch
 
