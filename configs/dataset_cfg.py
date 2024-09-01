@@ -51,11 +51,6 @@ dataset_info = {
         "gt_path":"your_dataset/VOC2012/annotations_detectron2/val",
         "labels":["aeroplane","bicycle","bird","boat","bottle","bus","car","cat","chair","cow","diningtable","dog","horse","motorbike","person","pottedplant","sheep","sofa","train","tv"],
         "background":['background','sky', 'wall','white','tree', 'wood', 'grass', 'road','trail', 'sea', 'river','water','box','signboard', 'mountain', 'sands', 'bed', 'bed', 'building', 'cloud', 'lamp', 'door', 'window', 'wardrobe', 'ceiling', 'shelf', 'curtain', 'stair', 'floor','ground','beach' 'hill', 'rail', 'fence'],
-    },
-    "CITYS19":{
-        "image_path":"your_dataset/cityscapes/leftImg8bit/val",
-        "gt_path":"your_dataset/cityscapes/gtFine/val",
-        "labels":['road','sidewalk','building','wall','fence','pole','traffic light','traffic sign','vegetation','terrain','sky','person','rider','car','truck','bus','train','motorcycle','bicycle'],
     }
 }
 
